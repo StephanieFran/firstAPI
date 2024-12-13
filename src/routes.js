@@ -1,4 +1,3 @@
-//Importar módulo
 const UserController = require('./controllers/UserController');
 
 module.exports = [

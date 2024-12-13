@@ -1,4 +1,3 @@
-//Importando dados fakes
 let users = require('../mocks/users');
 
 module.exports = {
