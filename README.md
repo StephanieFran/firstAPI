@@ -1,43 +1,45 @@
 <h1 align="center">First API</h1>
 
-Uma API REST com sistema de rotas e CRUD de usuários. Sem conexão com  bando de dados, utilizado um mock estático. Desenvolvido como projeto de estudo.
+Uma API REST com sistema de rotas e CRUD de usuários. Sem conexão com  bando de dados, utilizado um mock estático com dados fakes. Desenvolvido como projeto de estudo.
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 
 ## :hammer_and_wrench: Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
-- [Node.js (v20.17.0)](<https://nodejs.org/en/>)
-- [npm (v10.8.2)](https://www.npmjs.com/)
+- [Node.js (v22.12.0)](<https://nodejs.org/en/>)
+- [npm (v10.9.2)](https://www.npmjs.com/)
 - [VSCode (v1.95.3)](https://code.visualstudio.com/)
 - [Insomnia(v10.2.0)](https://insomnia.rest/)
 
 ## :computer: Funcionalidades e Demonstração da Aplicação
 
-Métodos para CRUD de usuários:
+No Controller se encontram as regras de negócio(métodos para CRUD de usuários):
 
-- `listUsers()`: 
+- `listUsers()`: Lista os usuários em ordem ascendente ou descendente
 
-- `getUserById()`: 
+- `getUserById()`: Retorna um usuário com ID correspondente
 
-- `createUser()`:  
+- `createUser()`:  Cria um novo usuário
 
-- `updateUser()`:
+- `updateUser()`: Atualiza dados de um usuário existente
 
-- `deleteUser()`: 
+- `deleteUser()`: Deleta usuário com ID correspondente
+
+O `bodyParser()` é um Event Listener que executa automaticamente quando a requisição for POST ou PUT.
 
 ## :open_file_folder: Acesso ao Projeto
 ```
-#Baixar arquivos
-$ 
+#Baixar arquivos manualmente ou clonar repositório
+$ git clone [url_projeto]
 ```
 
 ## :gear: Executar
 ```
-#Executar aplicação no terminal do VSCode
+#Abrir projeto e executar aplicação no terminal do VSCode
 $ node src/index.js
 ```
 
-No Insomina testar as rotas GET, POST, PUT e DELETE com a seguinte URL -> http://localhost:3000/users
+No Insomnia, testar as rotas com os métodos GET, POST, PUT e DELETE | URL -> http://localhost:3000/users/:id
 
 ## Pessoas Desenvolvedoras do Projeto
 
