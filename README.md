@@ -1,6 +1,6 @@
 <h1 align="center">First API</h1>
 
-Uma API REST com sistema de rotas e CRUD de usuários. Sem conexão com  bando de dados, utilizado um mock estático com dados fakes. Desenvolvido como projeto de estudo.
+Uma API REST com sistema de rotas e CRUD de usuários. Sem conexão com  bando de dados, utilizado um mock estático com dados fakes. Desenvolvido como projeto de estudo na Formação Fullstack, da plataforma JStack.
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 
