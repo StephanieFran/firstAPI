@@ -46,4 +46,4 @@ No Insomnia, testar as rotas com os métodos GET, POST, PUT e DELETE | URL -> ht
 Stephanie de França
 
 ## Licenses
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+_NoLicenses_
